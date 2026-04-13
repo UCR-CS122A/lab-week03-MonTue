@@ -25,6 +25,12 @@ A12 -> blue
 A11 -> green
 B11 -> red
 ```
+The ICESugar uses the following pins:
+```
+39 -> blue
+41 -> green
+40 -> red
+```
 The **ICESugar-pro** defaults to pulldown inputs so the other side of the switches should connect to 3V. The regular **ICESugar** defaults to pullup inputs so the other side of the switches should connect to ground.
 
 ## Introduction
@@ -64,6 +70,7 @@ You should verify this works in synthesis.
 
 ## Exercise 5:
 In addition to driving the 7-segment display, we'll use `duty_cycle` to control the brightness of an on-board LED using PWM.
+You can make your PWM Period to just be 10 clock cycles of your FPGA's clock.
 
 Please observe the hint provided in BACKGROUND.md for a suggestion on generating a PWM waveform more easily.
 
