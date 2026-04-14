@@ -86,5 +86,8 @@ Add the DIP Switch so that we can choose which `duty_cycle` counter is displayed
 
 So, for example, if the switch is in the OFF position, the RED LED's `duty_cycle` value is displayed, and the decimal point is turned OFF. If the switch is moved to the ON position, the BLUE LED's `duty_cycle` value is displayed, and the decimal point is turned ON.
 
+## Diagram
+![resulting design diagram](img/diag.png)
+
 ## Deadline
 This assignment is due next Monday before the start of Lab. Make sure to demo by the last OH on Monday.
