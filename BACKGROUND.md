@@ -31,9 +31,14 @@ module sampleSM (
     end
 
     always_comb begin
+        //START, S1, S3 and default not needed for simulation but needed for synthesis
         case(state)
+            START: out = 0;
             S0: out = 0;
+            S1: out = 0;
             S2: out = 1;
+            S3: out = 1;
+            default: out = 0;
         endcase 
     end
 
@@ -71,9 +76,14 @@ module sampleSM (
     end
 
     always_comb begin
+        //START, S1, S3 and default not needed for simulation but needed for synthesis
         case(state)
+            START: out = 0;
             S0: out = 0;
+            S1: out = 0;
             S2: out = 1;
+            S3: out = 1;
+            default: out = 0;
         endcase 
     end
 
